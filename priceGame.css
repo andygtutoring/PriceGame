@@ -1,0 +1,74 @@
+/* priceGame.css */
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #800080; /* Fuchsia */
+  padding: 1em;
+  text-align: center;
+}
+
+#points {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#game-container {
+  background-color: #333;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffd700; /* Gold */
+}
+
+#round-title {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#product-display {
+  margin-bottom: 1em;
+}
+
+#guess-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#guess-input {
+  width: 50%;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+#submit-guess {
+  background-color: #ffd700; /* Gold */
+  color: #000;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-guess:hover {
+  background-color: #ffee00;
+}
+
+#result-display {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+

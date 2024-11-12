@@ -1,0 +1,29 @@
+<!-- priceGame.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Guessing Game Show</title>
+    <link rel="stylesheet" href="priceGame.css">
+  </head>
+  <body>
+    <header>
+      <h1>Price Guessing Game Show</h1>
+      <p id="points">Points: 0</p>
+    </header>
+    <main>
+      <div id="game-container">
+        <h2 id="round-title"></h2>
+        <div id="product-display"></div>
+        <form id="guess-form">
+          <input type="number" id="guess-input" required>
+          <button id="submit-guess">Guess</button>
+        </form>
+        <div id="result-display"></div>
+      </div>
+    </main>
+    <script src="products.js"></script>
+    <script src="priceGame.js"></script>
+  </body>
+</html>
